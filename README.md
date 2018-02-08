@@ -27,6 +27,9 @@ npm -g install nadesiko3-googlehome
 「おはよう」とGoogleHome言う。
 ```
 
+『GoogleHome接続』命令の引数には、GoogleHomeの名前かIPアドレスを指定します。『GoogleHome接続』命令を実行すると、GoogleHomeとして接続できる端末の一覧が表示されるので、うまく接続出来なかった場合、その名前を指定します。
+
+
 MP3ファイルを再生する時は、以下のようにします。
 
 ```
