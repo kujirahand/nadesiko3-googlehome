@@ -10,7 +10,7 @@ const PluginGoogleHome = {
     }
   },
   // @GoogleHome
-  'GoogleHome接続': { // @LAN内にある名前NAMEのGoogleHomeに接続する //@GOOGLEHOMEせつぞく
+  'GoogleHome接続': { // @LAN内にある名前NAMEのGoogleHomeに接続する // @GOOGLEHOMEせつぞく
     type: 'func',
     josi: [['へ', 'に', 'の']],
     fn: function (name, sys) {
@@ -21,7 +21,7 @@ const PluginGoogleHome = {
       }
     }
   },
-  'GoogleHome言': { // @GoogleHomeにSと言わせる //@GOOGLEHOMEいう
+  'GoogleHome言': { // @GoogleHomeにSと言わせる // @GOOGLEHOMEいう
     type: 'func',
     josi: [['と', 'を']],
     fn: function (s, sys) {
@@ -30,14 +30,14 @@ const PluginGoogleHome = {
       })
     }
   },
-  'GoogleHome話': { // @GoogleHomeにSと言わせる //@GOOGLEHOMEはなす
+  'GoogleHome話': { // @GoogleHomeにSと言わせる // @GOOGLEHOMEはなす
     type: 'func',
     josi: [['と', 'を']],
     fn: function (s, sys) {
       sys.__exec('GoogleHome言', [s])
     }
   },
-  'GoogleHome再生': { // @GoogleHomeでMP3を再生する //@GOOGLEHOMEさいせい
+  'GoogleHome再生': { // @GoogleHomeでMP3を再生する // @GOOGLEHOMEさいせい
     type: 'func',
     josi: [['を', 'で']],
     fn: function (s, sys) {
